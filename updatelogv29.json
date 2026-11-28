@@ -1,0 +1,13 @@
+{
+  "version": "v29",
+  "date": "2026-11-29",
+  "title": "図鑑（レインボー選択時）などの軽量化",
+  "title_en": "Lighter Encyclopedia (especially with Rainbow selected)",
+  "changes": [
+    {
+      "type": "改善",
+      "text": "図鑑で変異「レインボー」を選ぶと重くなる問題を直しました。原因は、約100枚のカードの虹色の枠が同時に動き続けていたことです。図鑑の中では枠を動かさない表示にしました（見た目の色は同じです）。あわせて、画面外のカードの描画を後回しにし、検索やレベルの入力のたびに図鑑を作り直す回数も減らしました",
+      "text_en": "Fixed the lag when choosing the Rainbow variant in the Encyclopedia. The cause was about 100 cards animating their rainbow borders at once; inside the Encyclopedia the border is now static (same colors). Off-screen cards are also rendered later, and the Encyclopedia is rebuilt less often while you type in search or level boxes"
+    }
+  ]
+}
