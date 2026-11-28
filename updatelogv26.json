@@ -1,0 +1,13 @@
+{
+  "version": "v26",
+  "date": "2026-11-29",
+  "title": "数値の表示をゲームと同じ書き方に",
+  "title_en": "Numbers now shown the same way as in the game",
+  "changes": [
+    {
+      "type": "改善",
+      "text": "HP・戦闘力の表示を、ゲームと同じ「K/M/B単位で小数第1位まで切り捨て」にしました（例: 1.261M → 1.2M、69.84M → 69.8M）。これまでは小数第3位まで表示していました",
+      "text_en": "HP and Power are now displayed the way the game does: in K/M/B with the first decimal place rounded down (e.g. 1.261M → 1.2M, 69.84M → 69.8M). Previously up to three decimal places were shown"
+    }
+  ]
+}
