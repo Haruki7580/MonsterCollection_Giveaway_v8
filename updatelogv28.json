@@ -1,0 +1,13 @@
+{
+  "version": "v28",
+  "date": "2026-11-29",
+  "title": "データの読み込みを常に最新にする",
+  "title_en": "Always load the latest data",
+  "changes": [
+    {
+      "type": "改善",
+      "text": "monsters.json を、ブラウザに古い内容を残さず毎回読み込むようにしました。数値を直したあとに、古い値が表示され続けることを防ぎます",
+      "text_en": "monsters.json is now loaded fresh every time, without the browser keeping an old copy. This prevents old values from staying on screen after numbers are corrected"
+    }
+  ]
+}
