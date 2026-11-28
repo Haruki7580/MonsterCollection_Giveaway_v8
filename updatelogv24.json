@@ -1,0 +1,33 @@
+{
+  "version": "v24",
+  "date": "2026-11-29",
+  "title": "英語名の追加・ボスと変異を抽選対象に・数値の読み方",
+  "title_en": "English names, BOSS and variants in the draw pool, number notes",
+  "changes": [
+    {
+      "type": "新機能",
+      "text": "英語表示のとき、モンスター名が英語名になります（例: カピト → Capito、ニャロウィン → Nyalloween、闇ゴチャメラ → Dark Gochamera、タイプ・ゼロ → Type-ZERO）。英語名でも図鑑や指定配布の検索ができます。幻の英語表記は Mythic、変異は Normal / Shiny / Dark / Rainbow、幻の覚醒は EX になりました",
+      "text_en": "In English mode, monster names are now shown in English (e.g. Capito, Nyalloween, Dark Gochamera, Type-ZERO), and you can search the Encyclopedia and Chosen Monster by English name. Illusion is now called Mythic, variants are Normal / Shiny / Dark / Rainbow, and Awakened is now EX"
+    },
+    {
+      "type": "新機能",
+      "text": "抽選の対象に「ボス」を追加しました（英語表示では BOSS）",
+      "text_en": "Added BOSS to the draw pool"
+    },
+    {
+      "type": "新機能",
+      "text": "抽選の対象に「通常図鑑の変異（ノーマル・シャイニー・漆黒・レインボー）」の選択を追加しました。外した変異は出なくなります（出やすさの重みはそのまま使われます）",
+      "text_en": "Added a selector for regular monster variants (Normal / Shiny / Dark / Rainbow) to the draw pool. Variants you turn off will not appear (the existing odds weights still apply to the rest)"
+    },
+    {
+      "type": "新機能",
+      "text": "図鑑のいちばん下に「数値の読み方（図鑑の注意）」を追加しました。HPや戦闘力の見方、変異の倍率、確認済みの数値と計算値の違い、表示の切り捨てなどをまとめています",
+      "text_en": "Added \"How to read the numbers (encyclopedia notes)\" at the bottom of the Encyclopedia, covering how to read HP and Power, variant multipliers, checked vs. calculated values, and rounded-down displays"
+    },
+    {
+      "type": "改善",
+      "text": "英語表示では、Events タブを開くと「次のバージョンまでお待ちください」というお知らせが英語で出ます（タブのボタンはそのまま残しています）",
+      "text_en": "In English mode, the Events tab now shows a notice that it is temporarily closed until the next version (the tab button stays)"
+    }
+  ]
+}
