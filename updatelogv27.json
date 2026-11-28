@@ -1,0 +1,13 @@
+{
+  "version": "v27",
+  "date": "2026-11-29",
+  "title": "JK・ヤマタノコロチ・アヤツリッチの戦闘力を修正",
+  "title_en": "Power corrected for JK, Yamatanokorochi and Ayatsuritch",
+  "changes": [
+    {
+      "type": "修正",
+      "text": "JKの戦闘力が、本家マップ（Lv114で55.6M）より低く出ていたのを直しました。画面表示の切り捨て値（8.3M）ではなく、約8.375Mを基礎値にしています。同じ理由で、ヤマタノコロチ（約6.979M）とアヤツリッチ（約10.05M）の基礎戦闘力も、同じ表示値を持つ幻ラブリル系の値に合わせました",
+      "text_en": "Fixed JK's Power showing lower than the original map (55.6M at Lv.114). Its base is now about 8.375M instead of the rounded-down 8.3M shown on screen. For the same reason, the base Power of Yamatanokorochi (about 6.979M) and Ayatsuritch (about 10.05M) now follows the Mythic Labril line, which shows the same values"
+    }
+  ]
+}
