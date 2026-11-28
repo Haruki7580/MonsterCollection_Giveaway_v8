@@ -1,0 +1,13 @@
+{
+  "version": "v25",
+  "date": "2026-11-29",
+  "title": "ラブリル系の攻撃力を修正",
+  "title_en": "Labril line attack power corrected",
+  "changes": [
+    {
+      "type": "修正",
+      "text": "ラブリル・闇ラブリル・覚醒ラブリルの基礎攻撃力を、画面表示（切り捨ての6.9M）ではなく、覚醒ラブリル Lv120 = 69.8M から逆算した約6.979Mに直しました（闇 ×1.2、覚醒 ×1.44 も同じ基礎値から計算）",
+      "text_en": "Corrected the base attack power of Labril, Dark Labril and EX Labril to about 6.979M, worked backwards from EX Labril Lv.120 = 69.8M, instead of the rounded-down 6.9M shown on screen (Dark ×1.2 and EX ×1.44 are calculated from the same base)"
+    }
+  ]
+}
